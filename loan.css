@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:grey;
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+.mainContainer{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    height:80vh;
+    width:50vh;
+    align-items:center;
+    border-radius:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ProvideDetails{
+    padding:20px;
+}
+.Amount{
+    display:flex;
+    border:1px solid black;
+    background-color: white;
+    border-radius:2px;
+    margin:6px;
+    width:40vh;
+}
+.Text{
+   text-decoration: none;
+   padding:6px;
+   border:0;
+   width:35vh;
+}
+
+.Text:focus{
+    outline:none;
+}
+
+.repay{
+    width:38vh;
+}
+.icon{
+    background-color:  rgb(25, 10, 47);
+    border:0.5px solid  rgb(25, 10, 47)(176, 173, 173);
+    color:white;
+    height:35px;
+    width:28px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.percent{
+    height:38px;
+    padding: 0;
+    margin: 0;
+}
+button{
+    width:40vh;
+    height:35px;
+    margin:6px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    background-color: rgb(25, 10, 47);
+    color:white;
+    cursor:pointer;
+    border-radius: 4px;
+}
+
+button:hover{
+    box-shadow: 5px 5px 9px rgb(103, 99, 99);
+}
+
+#loading img{
+    height:60px;
+}
+
+/* hiding image and result */
+#loading{
+    display:none;
+}
+.ResultDiv{
+    display:none;
+}
+
+/* result section */
+#ResultDiv{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    height:80vh;
+    width:50vh;
+    align-items:center;
+    border-radius:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.monthlyPay{
+    display:flex;
+    border:1px solid black;
+    background : grey;
+    border-radius:2px;
+    padding: 5px;
+    margin:6px;
+    width:40vh;
+    background-color: rgb(208, 203, 203);
+}
+.theResult{
+    background-color: rgb(208, 203, 203);
+}
+.theResult{
+    text-decoration: none;
+    padding:4px;
+    border:0;
+    width:35vh;
+ }
